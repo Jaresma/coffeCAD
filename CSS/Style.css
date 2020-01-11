@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* Estilo Header */
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #263540;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+header .logo{
+    color: blanchedalmond;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    line-height: 200px;
+}
+
+header nav a{
+    display:inline-block;
+    color: blanchedalmond;
+    text-decoration:none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    
+}
+
+header nav a:hover{
+    background: #99d5ff;
+    border-radius: 50px;
+}
+.headerfijo{
+    position: fixed;
+    height: 100px;
+
+}
+.headerfijo .logo{
+    line-height: 100px;
+    font-size: 30px;
+}
+.headerfijo nav{
+    line-height: 100px;
+}
+
+/* Estilo Div sobre nosotros */
+
+.sobrenosotros img{
+    width: 250px;
+    height: 250px;
+    border-radius:50%; 
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+    border: solid 5px #263540;
+}
+.topbienvenido{
+    margin-top: 20px;
+   
+    margin-right: auto;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    
+}
+.txtsn{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 5px;
+    
+}
+/* Estilo div servicios  */
+.servicios{
+    padding-top: 10px;
+    background: #99d5ff;
+    margin-top: 100px;
+    width: 100%;
+    height: 650px;
+}
+.servicios h1{
+    text-align: center;
+}
+.diseñoarq{
+   
+
+width: 300px;
+height: 550px;
+background: blanchedalmond;
+border:solid 2.5px #263540;
+border-radius: 5px; 
+margin-left: 125px;
+margin-top: 50px;
+float: left;
+
+}
+.diseñoarq h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.idiseñoarq{
+    border:solid 2px #263540;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+
+   
+}
+.idiseñoarq img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 50px;
+    margin-left:50px ;
+    position: sticky;
+}
+.txtda1{
+    margin-top: 220px;
+    margin-left: 1em;
+    font-size: 15px;
+}
+.txtda2{
+    margin-top: 20px;
+    margin-left: 1em;
+    font-size: 15px;
+
+}
+
+.cad{
+    width: 300px;
+    height: 550px;
+    background: blanchedalmond;
+    border:solid 2.5px #263540;
+    border-radius: 5px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+
+.cad h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.icad{
+   
+    border-radius: 50%;
+    border:solid 2px #263540;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+.icad img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 50px;
+    margin-left:50px ;
+}
+.txtcad1{
+    margin-top: 220px;
+    margin-left: 1em;
+    font-size: 15px;
+}
+
+.d3{
+    width: 300px;
+    height: 550px;
+    background: blanchedalmond;
+    border:solid 2.5px #263540;
+    border-radius: 5px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+
+.d3 h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.i3d{
+   
+    border-radius: 50%;
+    border:solid 2px #263540;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+.i3d img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 50px;
+    margin-left:50px ;
+
+}
+.txt3d{
+    margin-top: 220px;
+    margin-left: 1em;
+    font-size: 15px;
+}
+/* Estilo Div Ubicacion */
+.ubicacion{
+    width: 100%;
+    height: 650px;
+    background:#4D6A80 ;
+    padding-top: 2em;
+}
+.ubicacion h1{
+    text-align: center;
+}
+.colombia{
+    
+}
+.colombia img{
+    width: 300px;
+    height: 200px;
+    margin-left: 125px;
+    margin-top:50px ;
+    border:solid 2.5px #99d5ff;
+    border-radius: 5px; 
+    float: left;
+}
+.mexico img{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top:50px ;
+    border:solid 2.5px #99d5ff;
+    border-radius: 5px; 
+    float: left;
+}
+.eua img{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top:50px ;
+    border:solid 2.5px #99d5ff;
+    border-radius: 5px; 
+    float: left;
+
+}
+.ubicacion h2{
+   margin-left: 215px;
+   float: left;
+   margin-top: 10px;
+}
+
+
+/* Estilo div contacto */
+.contacto p{
+    margin-bottom: 1em;
+    text-align: center;
+}
+.contacto input{
+    margin-bottom: 1em;
+    width: 200px;
+    background: #263540;
+    border-color: #263540;
+    border-radius: 5px;
+   color: aliceblue;
+   align-items: center;
+}
+
+
+.contacto{
+    text-align: center;
+    background: cadetblue;
+    font-size:20px;
+    
+    
+   
+}
+
+
+@media screen and (max-width:950px){
+    header .logo,
+    header nav{
+        width:100%;
+        text-align:center;
+        line-height:100px;
+    }
+
+    .headerfijo{
+        height: auto;
+    }
+
+    .headerfijo .logo,
+    .headerfijo nav {
+        line-height: 50px;
+
+    }
+
+}
